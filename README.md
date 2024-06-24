@@ -20,3 +20,8 @@ at a time (MATLAB and C# would each be optional, while C++/C would be the glue
 binding one or the other to Prolog). It's also worth noting that MATLAB itself
 can export code to C++/C, so in the end, it might also be used mainly as a code
 design tool, and the actual code ends up as C++/C and Prolog alone.
+
+For now, I intend to finish the Qt version in my spare time on a different computer
+(which ISN'T having any issues), and then I can move on to this version when it is
+convenient to do so. This one will not be the priority compared to the Qt version
+unless some other issue arises.
