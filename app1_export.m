@@ -137,13 +137,18 @@ classdef app1_export < matlab.apps.AppBase
         % Value changing function: R11
         function R11ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R11.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -151,20 +156,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R12
         function R12ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R12.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -172,20 +180,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R13
         function R13ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R13.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -193,20 +204,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R14
         function R14ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R14.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -214,20 +228,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R15
         function R15ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R15.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -235,20 +252,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R16
         function R16ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R16.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -256,20 +276,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R17
         function R17ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R17.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -277,20 +300,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R18
         function R18ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R18.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -298,20 +324,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R19
         function R19ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R19.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -319,20 +348,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R21
         function R21ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R21.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -340,20 +372,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R22
         function R22ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R22.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -361,20 +396,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R23
         function R23ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R23.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -382,20 +420,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R24
         function R24ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R24.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -403,20 +444,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R25
         function R25ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R25.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -424,20 +468,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R26
         function R26ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R26.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -445,20 +492,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R27
         function R27ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R27.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -466,20 +516,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R28
         function R28ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R28.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -487,20 +540,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R29
         function R29ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R29.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -508,20 +564,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R31
         function R31ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R31.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -529,20 +588,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R32
         function R32ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R32.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -550,20 +612,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R33
         function R33ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R33.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -571,20 +636,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R34
         function R34ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R34.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -592,20 +660,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R35
         function R35ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R35.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -613,20 +684,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R36
         function R36ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R36.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -634,20 +708,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R37
         function R37ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R37.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -655,20 +732,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R38
         function R38ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R38.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -676,20 +756,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R39
         function R39ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R39.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -697,20 +780,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R41
         function R41ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R41.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -718,20 +804,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R42
         function R42ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R42.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -739,20 +828,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R43
         function R43ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R43.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -760,20 +852,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R44
         function R44ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R44.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -781,20 +876,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R45
         function R45ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R45.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -802,20 +900,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R46
         function R46ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R46.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -823,20 +924,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R47
         function R47ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R47.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -844,20 +948,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R48
         function R48ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R48.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -865,20 +972,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R49
         function R49ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R49.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -886,20 +996,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R51
         function R51ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R51.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -907,20 +1020,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R52
         function R52ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R52.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -928,20 +1044,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R53
         function R53ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R53.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -949,20 +1068,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R54
         function R54ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R54.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -970,20 +1092,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R55
         function R55ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R55.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -991,20 +1116,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R56
         function R56ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R56.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1012,20 +1140,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R57
         function R57ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R57.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1033,20 +1164,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R58
         function R58ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R58.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1054,20 +1188,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R59
         function R59ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R59.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1075,20 +1212,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R61
         function R61ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R61.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1096,20 +1236,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R62
         function R62ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R62.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1117,20 +1260,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R63
         function R63ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R63.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1138,20 +1284,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R64
         function R64ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R64.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1159,20 +1308,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R65
         function R65ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R65.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1180,20 +1332,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R66
         function R66ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R66.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1201,20 +1356,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R67
         function R67ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R67.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1222,20 +1380,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R68
         function R68ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R68.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1243,20 +1404,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R69
         function R69ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R69.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1264,20 +1428,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R71
         function R71ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R71.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1285,20 +1452,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R72
         function R72ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R72.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1306,20 +1476,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R73
         function R73ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R73.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1327,20 +1500,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R74
         function R74ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R74.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1348,20 +1524,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R75
         function R75ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R75.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1369,20 +1548,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R76
         function R76ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R76.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1390,20 +1572,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R77
         function R77ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R77.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1411,20 +1596,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R78
         function R78ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R78.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1432,20 +1620,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R79
         function R79ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R79.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1453,20 +1644,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R81
         function R81ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R81.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1474,20 +1668,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R82
         function R82ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R82.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1495,20 +1692,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R83
         function R83ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R83.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1516,20 +1716,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R84
         function R84ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R84.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1537,20 +1740,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R85
         function R85ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R85.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1558,20 +1764,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R86
         function R86ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R86.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1579,20 +1788,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R87
         function R87ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R87.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1600,20 +1812,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R88
         function R88ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R88.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1621,20 +1836,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R89
         function R89ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R89.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1642,20 +1860,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R91
         function R91ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R91.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1663,20 +1884,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R92
         function R92ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R92.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1684,20 +1908,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R93
         function R93ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R93.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1705,20 +1932,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R94
         function R94ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R94.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1726,20 +1956,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R95
         function R95ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R95.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1747,20 +1980,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R96
         function R96ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R96.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1768,20 +2004,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R97
         function R97ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R97.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1789,20 +2028,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R98
         function R98ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R98.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1810,20 +2052,23 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
 
         % Value changing function: R99
         function R99ValueChanging(app, event)
             changingValue = event.Value;
-            while (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            app.done = true;
+            robot = java.awt.Robot;
+
+            % This is a good way to clear invalid input live
+            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
-                app.R99.Value = "";
-                changingValue = "";
+                robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 app.done = false;
             end
 
+            % This implements AutoTab
             app.hit = app.hit + 1;
 
             if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
@@ -1831,8 +2076,6 @@ classdef app1_export < matlab.apps.AppBase
                 robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
-
-            app.done = true;
         end
     end
 
