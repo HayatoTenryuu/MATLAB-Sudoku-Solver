@@ -108,9 +108,11 @@ classdef app1_export < matlab.apps.AppBase
             
         end
 
-        % Callback function: Button, Switch
+        % Callback function: Button, SolveButton, Switch
         function ButtonPushed(app, event)
-            if event.EventName == "ButtonPushed"
+
+            % Gotta be sure they hit the Help Button
+            if (event.EventName == "ButtonPushed") && (event.Source == app.Button)
                 message = "Insert the Sudoku puzzle you would like solved. " + newline + newline + ...
                     "You can either click each individual square you would like to fill in, " + ...
                     "or you can start at the top left square and tab through them all. " + ...
@@ -123,7 +125,7 @@ classdef app1_export < matlab.apps.AppBase
                 
                 uialert(app.SudokuSolverUIFigure, message, "Help", "Icon", "info");
 
-            % Gotta know whether they hit the button or the switch:
+            % Gotta know they hit the AutoTab switch
             elseif (event.EventName == "ValueChanged")
 
                 % This is unnecessary except I wanted it to be obvious that Items may be weird.
@@ -133,6 +135,17 @@ classdef app1_export < matlab.apps.AppBase
                 else
                     app.Switch.Value = " ";
                 end
+            
+            % Gotta be sure they hit the Solve Button
+            elseif (event.EventName == "ButtonPushed") && (event.Source == app.SolveButton)
+
+                %--------------------------------------------------------------
+                % Put solving stuff here
+                %--------------------------------------------------------------
+
+                uialert(app.SudokuSolverUIFigure, "Hello!", "What's hanging, bro?", Icon="success");
+                
+            
             end
         end
 
@@ -2090,8 +2103,6 @@ classdef app1_export < matlab.apps.AppBase
             % Get the file path for locating images
             pathToMLAPP = fileparts(mfilename('fullpath'));
 
-            % 
-
             % Create SudokuSolverUIFigure and hide until all components are created
             app.SudokuSolverUIFigure = uifigure('Visible', 'off');
             app.SudokuSolverUIFigure.Position = [0 0 600 700];
@@ -2122,6 +2133,7 @@ classdef app1_export < matlab.apps.AppBase
 
             % Create SolveButton
             app.SolveButton = uibutton(app.SudokuSolverUIFigure, 'push');
+            app.SolveButton.ButtonPushedFcn = createCallbackFcn(app, @ButtonPushed, true);
             app.SolveButton.FontSize = 18;
             app.SolveButton.Position = [206 55 190 48];
             app.SolveButton.Text = 'Solve!';
