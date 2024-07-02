@@ -94,6 +94,8 @@ classdef app1_export < matlab.apps.AppBase
     
     properties (Access = public)
         count = 0; 
+        hit = 0;
+        done = true;
     end
     
     % Callbacks that handle component events
@@ -139,11 +141,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R11.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R12
@@ -153,11 +162,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R12.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R13
@@ -167,11 +183,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R13.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R14
@@ -181,11 +204,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R14.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R15
@@ -195,11 +225,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R15.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R16
@@ -209,11 +246,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R16.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R17
@@ -223,11 +267,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R17.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R18
@@ -237,11 +288,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R18.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R19
@@ -251,11 +309,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R19.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R21
@@ -265,11 +330,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R21.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R22
@@ -279,11 +351,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R22.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R23
@@ -293,11 +372,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R23.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R24
@@ -307,11 +393,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R24.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R25
@@ -321,11 +414,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R25.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R26
@@ -335,11 +435,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R26.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R27
@@ -349,11 +456,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R27.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R28
@@ -363,11 +477,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R28.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R29
@@ -377,11 +498,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R29.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R31
@@ -391,11 +519,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R31.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R32
@@ -405,11 +540,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R32.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R33
@@ -419,11 +561,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R33.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R34
@@ -433,11 +582,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R34.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R35
@@ -447,11 +603,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R35.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R36
@@ -461,11 +624,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R36.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R37
@@ -475,11 +645,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R37.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R38
@@ -489,11 +666,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R38.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R39
@@ -503,11 +687,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R39.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R41
@@ -517,11 +708,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R41.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R42
@@ -531,11 +729,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R42.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R43
@@ -545,11 +750,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R43.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R44
@@ -559,11 +771,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R44.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R45
@@ -573,11 +792,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R45.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R46
@@ -587,11 +813,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R46.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R47
@@ -601,11 +834,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R47.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R48
@@ -615,11 +855,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R48.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R49
@@ -629,11 +876,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R49.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R51
@@ -643,11 +897,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R51.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R52
@@ -657,11 +918,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R52.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R53
@@ -671,11 +939,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R53.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R54
@@ -685,11 +960,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R54.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R55
@@ -699,11 +981,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R55.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R56
@@ -713,11 +1002,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R56.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R57
@@ -727,11 +1023,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R57.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R58
@@ -741,11 +1044,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R58.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R59
@@ -755,11 +1065,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R59.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R61
@@ -769,11 +1086,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R61.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R62
@@ -783,11 +1107,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R62.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R63
@@ -797,11 +1128,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R63.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R64
@@ -811,11 +1149,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R64.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R65
@@ -825,11 +1170,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R65.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R66
@@ -839,11 +1191,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R66.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R67
@@ -853,11 +1212,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R67.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R68
@@ -867,11 +1233,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R68.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R69
@@ -881,11 +1254,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R69.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R71
@@ -895,11 +1275,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R71.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R72
@@ -909,11 +1296,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R72.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R73
@@ -923,11 +1317,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R73.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R74
@@ -937,11 +1338,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R74.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R75
@@ -951,11 +1359,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R75.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R76
@@ -965,11 +1380,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R76.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R77
@@ -979,11 +1401,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R77.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R78
@@ -993,11 +1422,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R78.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R79
@@ -1007,11 +1443,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R79.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R81
@@ -1021,11 +1464,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R81.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R82
@@ -1035,11 +1485,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R82.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R83
@@ -1049,11 +1506,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R83.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R84
@@ -1063,11 +1527,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R84.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R85
@@ -1077,11 +1548,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R85.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R86
@@ -1091,11 +1569,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R86.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R87
@@ -1105,11 +1590,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R87.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R88
@@ -1119,11 +1611,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R88.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R89
@@ -1133,11 +1632,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R89.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R91
@@ -1147,11 +1653,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R91.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R92
@@ -1161,11 +1674,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R92.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R93
@@ -1175,11 +1695,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R93.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R94
@@ -1189,11 +1716,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R94.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R95
@@ -1203,11 +1737,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R95.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R96
@@ -1217,11 +1758,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R96.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R97
@@ -1231,11 +1779,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R97.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R98
@@ -1245,11 +1800,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R98.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
 
         % Value changing function: R99
@@ -1259,11 +1821,18 @@ classdef app1_export < matlab.apps.AppBase
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 app.R99.Value = "";
                 changingValue = "";
+                app.done = false;
             end
-            if app.Switch.Value == " "
-                    
 
+            app.hit = app.hit + 1;
+
+            if (app.Switch.Value == " ") && (app.done == true) && (mod(app.hit, 2) == 1)
+                robot = java.awt.Robot;
+                robot.keyPress(java.awt.event.KeyEvent.VK_TAB);
+                robot.keyRelease(java.awt.event.KeyEvent.VK_TAB);
             end
+
+            app.done = true;
         end
     end
 
