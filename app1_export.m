@@ -1,3 +1,5 @@
+%% This creates and runs an app to solve Sudoku Problems
+
 classdef app1_export < matlab.apps.AppBase
 
     % Properties that correspond to app components
