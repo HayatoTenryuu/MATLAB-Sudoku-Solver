@@ -143,7 +143,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -167,7 +167,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -191,7 +191,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -215,7 +215,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -239,7 +239,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -263,7 +263,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -287,7 +287,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -311,7 +311,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -335,7 +335,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -359,7 +359,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -383,7 +383,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -407,7 +407,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -431,7 +431,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -455,7 +455,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -479,7 +479,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -503,7 +503,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -527,7 +527,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -551,7 +551,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -575,7 +575,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -599,7 +599,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -623,7 +623,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -647,7 +647,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -671,7 +671,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -695,7 +695,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -719,7 +719,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -743,7 +743,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -767,7 +767,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -791,7 +791,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -815,7 +815,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -839,7 +839,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -863,7 +863,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -887,7 +887,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -911,7 +911,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -935,7 +935,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -959,7 +959,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -983,7 +983,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1007,7 +1007,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1031,7 +1031,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1055,7 +1055,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1079,7 +1079,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1103,7 +1103,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1127,7 +1127,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1151,7 +1151,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1175,7 +1175,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1199,7 +1199,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1223,7 +1223,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1247,7 +1247,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1271,7 +1271,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1295,7 +1295,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1319,7 +1319,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1343,7 +1343,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1367,7 +1367,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1391,7 +1391,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1415,7 +1415,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1439,7 +1439,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1463,7 +1463,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1487,7 +1487,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1511,7 +1511,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1535,7 +1535,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1559,7 +1559,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1583,7 +1583,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1607,7 +1607,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1631,7 +1631,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1655,7 +1655,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1679,7 +1679,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1703,7 +1703,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1727,7 +1727,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1751,7 +1751,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1775,7 +1775,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1799,7 +1799,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1823,7 +1823,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1847,7 +1847,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1871,7 +1871,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1895,7 +1895,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1919,7 +1919,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1943,7 +1943,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1967,7 +1967,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -1991,7 +1991,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -2015,7 +2015,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -2039,7 +2039,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
@@ -2063,7 +2063,7 @@ classdef app1_export < matlab.apps.AppBase
             robot = java.awt.Robot;
 
             % This is a good way to clear invalid input live
-            if (changingValue ~= "" && changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
+            if (changingValue ~= "1" && changingValue ~= "2" && changingValue ~= "3" && changingValue ~= "4" ...
                     && changingValue ~= "5" && changingValue ~= "6" && changingValue ~= "7" && changingValue ~= "8" && changingValue ~= "9")
                 robot.keyPress(java.awt.event.KeyEvent.VK_BACK_SPACE);
                 robot.keyRelease(java.awt.event.KeyEvent.VK_BACK_SPACE);
